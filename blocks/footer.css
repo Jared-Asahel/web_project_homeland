@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 92px;
+  padding-bottom: 24px;
+}
+
+.footer__text {
+  max-width: 194px;
+  width: 100%;
+  margin: auto;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin-top: 64px;
+  }
+}
