@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 92px;
+  margin-top: 90px;
   padding-bottom: 24px;
 }
 
@@ -10,14 +10,8 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
-    margin-top: 88px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .footer {
-    margin-top: 64px;
+    margin-top: 65px;
   }
 }
