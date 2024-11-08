@@ -130,11 +130,8 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 21.78px;
   color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .place__content-buttom:hover {
@@ -203,7 +200,8 @@
       "title"
       "website"
       "img"
-      "paragraph";
+      "paragraph"
+      "buttom";
   }
   .place__title {
     max-width: 288px;
@@ -225,6 +223,11 @@
     margin-right: auto;
     padding: 0;
   }
+
+  .place__website_url-heading {
+    margin-bottom: 0;
+  }
+
   .place__website_artist {
     margin: 0;
   }
